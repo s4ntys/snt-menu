@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Kanit&family=Nova+Square&family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Titillium+Web:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --text-color: #ffffff;
+    --main-color: #13bbff;
+    --bg-color: #1b1f24;
+
+    --big-font: 4.5rem;
+    --h4-font: 1.6rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+
+.about li a {
+    font-family: Titillium Web;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    width: 125px;
+    height: 44px;
+    color: #aeb5f1;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lua li a {
+    font-family: Titillium Web;
+    position: absolute;
+    left: 277px;
+    top: 33px;
+    width: 125px;
+    height: 44px;
+    color: #aeb5f1;
+    font-size: 35px;
+    text-align: center;
+}
+
+.discord {
+    font-family: Titillium Web;
+    position: absolute;
+    left: 439px;
+    top: 42px;
+    width: 172px;
+    height: 44px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    color: #aeb5f1;
+    background-color: #49535f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #ee2401;
+    transform: translateY(-2px);
+  }
+  
+  .discord:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+
+
+  .welcome-text {
+    font-family: Titillium Web;
+    font-size: 6em; /* Veľkosť textu */
+    color: #49535f; /* Farba textu */
+    text-align: center; /* Zarovnanie textu na stred */
+    text-transform: uppercase; /* Prevedenie textu na veľké písmená */
+    letter-spacing: 9px; /* Rozostup medzi písmenami */
+    margin-top: 450px; /* Odstup od horného okraja */
+    position: absolute;
+    left: 160px;
+  }
+
+  .welcome-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .sub-text {
+    font-family: Titillium Web;
+    color: #aeb5f1;
+    position: absolute;
+    left: 160px;
+    top: 630px;
+    display: inline-block;
+    animation: wave 1.5s infinite;
+  }
+
+  .welcome-text span {
+    display: inline-block;
+    animation: wave 1.5s infinite;
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-2px);
+    }
+    75% {
+      transform: translateY(10px);
+    }
+  }
+
+
+.image {
+    width: 261px;
+    height: 205px;
+    background-image: url('/photo/kiddions-bg-remove.png');
+    position: absolute;
+    left: 980px;
+    top: 458px;
+}
+
+
+.copyright {
+    position: absolute;
+    left: 267px;
+    top: 869px;
+}
+
+
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.about-text {
+    font-family: Titillium Web;
+    text-align: center;
+}
+
+.info-container {
+    text-align: center;
+    margin-top: 5px; /* Odstup od vrchnej časti */
+  }
+  
+  .info-text {
+    font-family:    Titillium Web;
+    font-size: 1.2em; /* Veľkosť textu */
+    line-height: 1.6; /* Výška riadku */
+  }
+  
+  
